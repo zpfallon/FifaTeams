@@ -19,6 +19,7 @@ public class ResultActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         ArrayList<Team> teamList = ((TeamList) this.getApplication()).getTeamList();
         setContentView(R.layout.activity_result);
+        setTitle("FifaTeams");
         //Get references to the widgets
         ImageView topFlag = (ImageView) findViewById(R.id.imageView17);
         ImageView bottomFlag = (ImageView) findViewById(R.id.imageView18);
