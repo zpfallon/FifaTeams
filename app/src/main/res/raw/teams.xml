@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This will house the data for the teams-->
+<teams>
+    <entry name="Argentina" att="87" mid="80" def="80" />
+    <entry name="Australia" att="71" mid="70" def="66" />
+    <entry name="Austria" att="71" mid="74" def="74" />
+    <entry name="Belgium" att="75" mid="80" def="78" />
+    <entry name="Bolivia" att="65" mid="63" def="63" />
+    <entry name="Brazil" att="78" mid="81" def="81" />
+    <entry name="Bulgaria" att="66" mid="68" def="67" />
+    <entry name="Cameroon" att="76" mid="65" def="74" />
+    <entry name="Chile" att="77" mid="75" def="73" />
+    <entry name="Colombia" att="82" mid="78" def="74" />
+    <entry name="Cote d'Ivoire" att="77" mid="72" def="72" />
+    <entry name="Czech Republic" att="73" mid="73" def="72" />
+    <entry name="Denmark" att="75" mid="72" def="76" />
+    <entry name="Ecuador" att="73" mid="72" def="66" />
+    <entry name="Egypt" att="67" mid="68" def="66" />
+    <entry name="England" att="82" mid="77" def="78" />
+    <entry name="Finland" att="68" mid="70" def="67" />
+    <entry name="France" att="82" mid="80" def="79" />
+    <entry name="Germany" att="80" mid="84" def="77" />
+    <entry name="Greece" att="74" mid="72" def="75" />
+    <entry name="Hungary" att="72" mid="71" def="67" />
+    <entry name="India" att="60" mid="56" def="56" />
+    <entry name="Ireland" att="75" mid="76" def="73" />
+    <entry name="Italy" att="78" mid="78" def="79" />
+    <entry name="Korea Republic" att="73" mid="72" def="67" />
+    <entry name="Mexico" att="78" mid="75" def="71" />
+    <entry name="Netherlands" att="82" mid="80" def="77" />
+    <entry name="New Zealand" att="65" mid="60" def="60" />
+    <entry name="Northern Ireland" att="71" mid="68" def="68" />
+    <entry name="Norway" att="71" mid="73" def="71" />
+    <entry name="Paraguay" att="68" mid="71" def="69" />
+    <entry name="Peru" att="74" mid="67" def="67" />
+    <entry name="Poland" att="78" mid="71" def="74" />
+    <entry name="Portugal" att="82" mid="78" def="77" />
+    <entry name="Romania" att="71" mid="70" def="71" />
+    <entry name="Russia" att="77" mid="76" def="74" />
+    <entry name="Scotland" att="71" mid="73" def="70" />
+    <entry name="Slovenia" att="71" mid="69" def="68" />
+    <entry name="South Africa" att="68" mid="69" def="67" />
+    <entry name="Spain" att="80" mid="82" def="82" />
+    <entry name="Sweden" att="78" mid="72" def="74" />
+    <entry name="Switzerland" att="75" mid="77" def="75" />
+    <entry name="Turkey" att="75" mid="77" def="73" />
+    <entry name="United States" att="71" mid="75" def="72" />
+    <entry name="Uruguay" att="82" mid="73" def="74" />
+    <entry name="Venezuela" att="73" mid="69" def="68" />
+    <entry name="Wales" att="77" mid="72" def="72" />
+</teams>
