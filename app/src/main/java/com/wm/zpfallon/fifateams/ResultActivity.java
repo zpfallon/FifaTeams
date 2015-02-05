@@ -1,6 +1,7 @@
 package com.wm.zpfallon.fifateams;
 
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -9,11 +10,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Random;
 
 
 public class ResultActivity extends ActionBarActivity {
-
+    TextToSpeech ttobj;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,8 +40,8 @@ public class ResultActivity extends ActionBarActivity {
         while (one == two){
             two = r.nextInt(teamList.size());
         }
-        Team topTeam = teamList.get(one);
-        Team bottomTeam = teamList.get(two);
+        final Team topTeam = teamList.get(one);
+        final Team bottomTeam = teamList.get(two);
         //Set Text Fields
         topName.setText(topTeam.toString());
         bottomName.setText(bottomTeam.toString());
@@ -51,6 +53,20 @@ public class ResultActivity extends ActionBarActivity {
         bottomDef.setText("Def: "+bottomTeam.getDef());
         topFlag.setImageResource(imageKey(topTeam));
         bottomFlag.setImageResource(imageKey(bottomTeam));
+        ttobj = new TextToSpeech(getApplicationContext(),
+                new TextToSpeech.OnInitListener() {
+                    @Override
+                    public void onInit(int status) {
+                        if (status != TextToSpeech.ERROR) {
+                            ttobj.setLanguage(Locale.UK);
+                            String toSpeak = topTeam.toString() + ", versus, " + bottomTeam.toString();
+                            ttobj.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+                        }
+                    }
+                });
+
+
+
     }
 
 
